@@ -31,3 +31,7 @@ p {
 .card-body {
     padding-left: 20px; /* Ajusta el valor según necesites */
 }
+
+.flechas {
+    color: #87c9da;
+  }
