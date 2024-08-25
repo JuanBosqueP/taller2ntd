@@ -34,4 +34,35 @@ p {
 
 .flechas {
     color: #87c9da;
+}
+.video {
+    text-align: center;
+}
+.tabla-contenedor {
+    text-align: center;
+  }
+
+  .tabla-estilizada {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+
+  .tabla-estilizada th, .tabla-estilizada td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .tabla-estilizada th {
+    background-color: #87c9da;
+  }
+
+  .tabla-estilizada td {
+    background-color: #3f5c69;
+    color: #fff;
+  }
+
+  .tabla-estilizada tr:nth-child(even) td {
+    background-color: #2c4a59;
   }
