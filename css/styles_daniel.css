@@ -1,7 +1,33 @@
  h2 {
-    color: #8d0ae4;
+    color: #87c9da;
     font-size: 24px;
     text-align: center;
     font-family: Arial, sans-serif;
     margin-top: 20px;
+}
+
+body {
+    background-color: #060f17 !important;
+}
+
+
+p {
+    color:  #3f5c69;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#parrafo1, #parrafo2 {
+    color: #3f5c69;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.card-body {
+    padding-left: 20px; /* Ajusta el valor según necesites */
 }
