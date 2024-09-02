@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Dashboard - SB Admin</title>
-        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    </head>
-    <body class="sb-nav-fixed">
-        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.html">Taller 2</a>
-            <!-- Sidebar Toggle-->
-            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
-        </nav>
-        <div id="layoutSidenav">
-            <div id="layoutSidenav_nav">
-                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
-                    <div class="sb-sidenav-menu">
-                        <div class="nav">
-                            <div class="sb-sidenav-menu-heading">Articulo 1 Barbara Alejos</div>
-                            <a class="nav-link" href="barbara.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Articulo 1
-                            </a>
-                            <div class="sb-sidenav-menu-heading">Articulo 2 Daniel Gonzalez</div>
-                            <a class="nav-link" href="daniel.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Articulo 2
-                            </a>     
-                            <div class="sb-sidenav-menu-heading">Articulo 3 Juan Gonzalez</div>
-                            <a class="nav-link" href="juan.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Articulo 3
-                            </a>     
-                            <div class="sb-sidenav-menu-heading">Equipo</div>
-                            <a class="nav-link" href="equipo.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Equipo
-                            </a>                   
-                        </div>
-                    </div>
-                    
-                </nav>
-            </div>
-            <div id="layoutSidenav_content">
-                <main>
-                    <p>
-                        incluir la ficha técnica del artículo con los datos del mismo en su <br>
-                                1.idioma original <br>
-                                2 título<br>
-                                3 autores <br>
-                                4 resumen, <br>
-                                5 palabras clave, <br> 
-                                6 año de publicación, <br>
-                                7 donde se encuentra publicado, <br> 
-                                3 ideas principales por cada artículo plantéele a la IA 3 preguntas.<br>                                
-                                conclusiones<br>
-
-                    </p>
-                </main>
-                
-            </div>
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-        <script src="assets/demo/chart-area-demo.js"></script>
-        <script src="assets/demo/chart-bar-demo.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
-        <script src="js/datatables-simple-demo.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Técnica - Strategic Cybersecurity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 20px;
+        }
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e1e1e1;
+        }
+        td {
+            font-size: 16px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ficha Técnica del Artículo</h1>
+    <table>
+        <tr>
+            <th colspan="2">Información del Artículo</th>
+        </tr>
+        <tr>
+            <td><strong>Título</strong></td>
+            <td>Strategic Cybersecurity</td>
+        </tr>
+        <tr>
+            <td><strong>Autores</strong></td>
+            <td>Saleh AlDaajeh, Saed Alrabaee</td>
+        </tr>
+        <tr>
+            <td><strong>Resumen</strong></td>
+            <td>El artículo aborda la importancia de fortalecer la ciberseguridad nacional para salvaguardar la seguridad nacional en un entorno digital en constante evolución. Se presenta una taxonomía innovadora para clasificar los desafíos estratégicos de ciberseguridad y se revisan guías, modelos y marcos existentes para evaluar la ciberseguridad y su madurez. El estudio proporciona información crítica para la formulación de estrategias de ciberseguridad holísticas y adaptables.</td>
+        </tr>
+        <tr>
+            <td><strong>Palabras Clave</strong></td>
+            <td>Ciberseguridad nacional, desafíos estratégicos, índices de poder cibernético, índices de madurez en ciberseguridad, planificación estratégica</td>
+        </tr>
+        <tr>
+            <td><strong>Año de Publicación</strong></td>
+            <td>2024</td>
+        </tr>
+        <tr>
+            <td><strong>Publicado en</strong></td>
+            <td>Computers & Security, Volume 141, Article 103845</td>
+        </tr>
+        <tr>
+            <th colspan="2">Ideas Principales</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <ol>
+                    <li><strong>Importancia de la NCSP:</strong> La formulación de un Plan Estratégico Nacional de Ciberseguridad (NCSP) es crucial para guiar a las naciones en la protección de su infraestructura digital y asegurar su resiliencia frente a amenazas cibernéticas.</li>
+                    <li><strong>Marco de Evaluación:</strong> Se presenta un marco de evaluación que incluye tres dominios interrelacionados: evaluación del poder cibernético, evaluación de la ciberseguridad y evaluación de la madurez en ciberseguridad, lo que permite una comprensión holística de las capacidades de ciberseguridad de una nación.</li>
+                    <li><strong>Taxonomía de Desafíos:</strong> Se introduce una nueva taxonomía que distingue entre desafíos convencionales y estratégicos en ciberseguridad, lo que ayuda a los gobiernos a asignar recursos de manera más efectiva y a implementar estrategias de defensa adecuadas.</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
 </html>
