@@ -7,82 +7,111 @@
     <title>Ficha Técnica - Strategic Cybersecurity</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f2f5;
-            margin: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e6f2ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
         }
-        table {
+        .container {
             width: 80%;
-            margin: auto;
-            border-collapse: collapse;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            margin: 30px auto;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
         }
-        th, td {
+        .header {
+            background-color: #005c99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px 15px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 150px;
+            height: auto;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .content th, .content td {
             padding: 15px;
-            text-align: left;
             border-bottom: 1px solid #ddd;
         }
-        th {
-            background-color: #4CAF50;
+        .content th {
+            background-color: #005c99;
             color: white;
         }
-        tr:nth-child(even) {
+        .content tr:hover {
             background-color: #f2f2f2;
         }
-        tr:hover {
-            background-color: #e1e1e1;
-        }
-        td {
-            font-size: 16px;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
+        .ideas {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 20px 0;
+            border-left: 5px solid #005c99;
         }
     </style>
 </head>
 <body>
-    <h1>Ficha Técnica del Artículo</h1>
-    <table>
-        <tr>
-            <th colspan="2">Información del Artículo</th>
-        </tr>
-        <tr>
-            <td><strong>Título</strong></td>
-            <td>Strategic Cybersecurity</td>
-        </tr>
-        <tr>
-            <td><strong>Autores</strong></td>
-            <td>Saleh AlDaajeh, Saed Alrabaee</td>
-        </tr>
-        <tr>
-            <td><strong>Resumen</strong></td>
-            <td>El artículo aborda la importancia de fortalecer la ciberseguridad nacional para salvaguardar la seguridad nacional en un entorno digital en constante evolución. Se presenta una taxonomía innovadora para clasificar los desafíos estratégicos de ciberseguridad y se revisan guías, modelos y marcos existentes para evaluar la ciberseguridad y su madurez. El estudio proporciona información crítica para la formulación de estrategias de ciberseguridad holísticas y adaptables.</td>
-        </tr>
-        <tr>
-            <td><strong>Palabras Clave</strong></td>
-            <td>Ciberseguridad nacional, desafíos estratégicos, índices de poder cibernético, índices de madurez en ciberseguridad, planificación estratégica</td>
-        </tr>
-        <tr>
-            <td><strong>Año de Publicación</strong></td>
-            <td>2024</td>
-        </tr>
-        <tr>
-            <td><strong>Publicado en</strong></td>
-            <td>Computers & Security, Volume 141, Article 103845</td>
-        </tr>
-        <tr>
-            <th colspan="2">Ideas Principales</th>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <ol>
+    <div class="container">
+        <div class="header">
+            <h1>Ficha Técnica del Artículo</h1>
+        </div>
+        
+        <div class="image-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Cybersecurity Image">
+        </div>
+        
+        <div class="content">
+            <table>
+                <tr>
+                    <th>Título</th>
+                    <td>Strategic Cybersecurity</td>
+                </tr>
+                <tr>
+                    <th>Autores</th>
+                    <td>Saleh AlDaajeh, Saed Alrabaee</td>
+                </tr>
+                <tr>
+                    <th>Resumen</th>
+                    <td>El artículo aborda la importancia de fortalecer la ciberseguridad nacional para salvaguardar la seguridad nacional en un entorno digital en constante evolución. Se presenta una taxonomía innovadora para clasificar los desafíos estratégicos de ciberseguridad y se revisan guías, modelos y marcos existentes para evaluar la ciberseguridad y su madurez. El estudio proporciona información crítica para la formulación de estrategias de ciberseguridad holísticas y adaptables.</td>
+                </tr>
+                <tr>
+                    <th>Palabras Clave</th>
+                    <td>Ciberseguridad nacional, desafíos estratégicos, índices de poder cibernético, índices de madurez en ciberseguridad, planificación estratégica</td>
+                </tr>
+                <tr>
+                    <th>Año de Publicación</th>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <th>Publicado en</th>
+                    <td>Computers & Security, Volume 141, Article 103845</td>
+                </tr>
+            </table>
+
+            <div class="ideas">
+                <h2>Ideas Principales</h2>
+                <ul>
                     <li><strong>Importancia de la NCSP:</strong> La formulación de un Plan Estratégico Nacional de Ciberseguridad (NCSP) es crucial para guiar a las naciones en la protección de su infraestructura digital y asegurar su resiliencia frente a amenazas cibernéticas.</li>
                     <li><strong>Marco de Evaluación:</strong> Se presenta un marco de evaluación que incluye tres dominios interrelacionados: evaluación del poder cibernético, evaluación de la ciberseguridad y evaluación de la madurez en ciberseguridad, lo que permite una comprensión holística de las capacidades de ciberseguridad de una nación.</li>
                     <li><strong>Taxonomía de Desafíos:</strong> Se introduce una nueva taxonomía que distingue entre desafíos convencionales y estratégicos en ciberseguridad, lo que ayuda a los gobiernos a asignar recursos de manera más efectiva y a implementar estrategias de defensa adecuadas.</li>
-                </ol>
-            </td>
-        </tr>
-    </table>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
